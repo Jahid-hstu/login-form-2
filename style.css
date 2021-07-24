@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3F2651;
+    font-family: sans-serif;
+}
+.full {
+    width: 850px;
+    /* background: red; */
+    height: 500px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pic {
+    width: 500px;
+    height: 500px;
+    background: url(img/laptop.jpg);
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.pic:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+/*    background: rgb(183, 73, 168, 0.5);*/
+    background: linear-gradient(#e91e6387, #b400ff69);
+}
+.log{
+    width: 350px;
+    background: #fff;
+    height: 500px;
+    float: left;
+}
+p {
+    color: #3F2651;
+    margin: 20px 0px 0px 20px;
+}
+h3 {
+    color: #3F2651;
+    text-align: center;
+    padding: 50px 0px;
+    font-weight: normal;
+}
+.input {
+    text-align: center;
+}
+.input input {
+    width: 200px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d3c6c6;
+    color:  #3F2651;
+}
+button {
+    padding: 10px 25px;
+    border: none;
+    margin-top: 135px;
+    text-align: center;
+    color: white;
+    background:  #3F2651;
+    border-radius: 6px;
+    cursor: pointer;
+}
+h1 {
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+h4 {
+    position: relative;
+    color: #f8e7e7;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: normal;
+}
+.span span {
+    display: block;
+    width: 15px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 440px;
+    cursor: pointer;
+}
+svg.svg-inline--fa.fa-arrow-alt-circle-left.fa-w-16.arrow {
+    font-weight: normal;
+    font-size: 18px;
+}
